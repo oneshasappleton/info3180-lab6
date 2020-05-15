@@ -1,7 +1,54 @@
+html,body{
+    height: 100%;
+}
 body {
     padding-top: 5rem;
 }
 
 footer  {
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
+/* .news{
+    justify-content: center;
+} */
+.news__list{
+    display: grid;
+    list-style: none;
+    
+    grid-template-columns: repeat(3,320px);
+    /* grid-template-rows: repeat(auto-fill,20%); */
+    justify-content: center;
+    /* align-items: center; */
+    grid-gap: 1%;
+    overflow:hidden;
+    
+}
+.news__list img{
+    width: 100%;
+    height: auto;
+}
+.news__list li{
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 3.5px 3.5px 5px 1px #888888;
+    padding:2%;
+}
+.green{
+    background-color: green;
+    height: 2%;
+}
+/* .news__list li{
+    width: 30%;
+    height: 40%;
+    margin: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+    height: 100%;
+    
+    font-size: 2vh;
+    /* flex:1; */
+/* } */
+.news__list h4{
+    
+} 
